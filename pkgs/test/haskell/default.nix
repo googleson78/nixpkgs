@@ -6,4 +6,5 @@ lib.recurseIntoAttrs {
   documentationTarball = callPackage ./documentationTarball { };
   setBuildTarget = callPackage ./setBuildTarget { };
   writers = callPackage ./writers { };
+  stackHpackVersion = callPackage ./stackHpackVersion { };
 }
